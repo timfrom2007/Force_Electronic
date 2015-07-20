@@ -1,0 +1,82 @@
+
+body {
+    width: 926px;
+    height: 577px;
+    margin:0px auto;
+}
+
+
+#content{
+    width: 898px;
+    height: 493px;
+    margin:0px auto;
+    background-color: azure;
+}
+
+#top {
+    width: 898px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 90%;
+}
+
+#back:hover{
+    color: blue;
+}
+
+#content1 {
+    width: 898px;
+    height: 404px;
+}
+
+#left {
+    width: 249px;
+    height: 384px;
+    float: left;
+    background-color: gainsboro;
+}
+
+#middle {
+    width: 316px;
+    height: 384px;
+    float: left;
+}
+
+#right {
+    width: 269px;
+    height: 384px;
+    float: left;
+}
+
+
+
+.list:hover {
+    color:red;
+}
+
+.blank {
+    width: 11px;
+    height: 384px;
+    float: left;
+}
+
+
+
+.blank2 {
+    width: 21px;
+    height: 384px;
+    float: left;
+}
+
+p {
+    font-size: 85%;
+}
+
+html {
+    width: 926px;
+    height: 577px;
+}

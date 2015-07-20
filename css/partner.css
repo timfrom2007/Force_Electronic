@@ -1,0 +1,166 @@
+
+#toolbar {
+    background-color: dimgray;
+    width :980px; 
+    height: 30px; 
+    opacity: 1;
+    float: left;
+}
+
+#site-id {
+    width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 7px;
+    padding-left: 40px;
+}
+
+#energy-bar {
+    width:430px;
+    height: 30px;
+    float:left;
+    padding-top: 4px;
+}
+
+#english-contact {
+     width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 7px;
+}
+
+#search {
+    float:right;
+    width:auto;
+    height: 30px;
+    padding-top: 4px;
+    padding-right: 3px;
+}
+
+#header {
+    width: 980px;
+    height: 150px;
+    background-image: url(../img/header.jpg);
+}
+
+#header_left {
+     width: 580px;
+    height: 150px;
+    float: left;
+}
+
+#header_right {
+     width: 400px;
+    height: 150px;
+    float: left;
+    background-color: lightslategray;
+    text-align: center;
+    color: white;
+}
+
+#header_right_item {
+    margin-top: 50px;
+    font-size: 160%;
+}
+
+#content {
+    width: 980px;
+    height: 500px;
+    float: left;
+}
+
+html {
+    width: 980px;
+}
+
+
+
+#menu {
+    width: 978px;
+    height: 70;
+    float: left;
+}
+
+.menu_block {
+    width: 153px;
+    height: 70px;
+    float: left;
+    line-height:70px;
+    text-align: center;
+    background-color: silver;
+    margin: 0px 5px 0px 5px;
+    font-size: 80%;
+    
+}
+
+#blank {
+    width: 980px;
+    height: 10px;
+    float: left;
+}
+
+#middle_top {
+    width: 560px;
+    height: 20px;
+    float: left;
+
+}
+
+a {
+    text-decoration:none;
+    color: black;
+    
+}
+#img_div {
+    width: 650px;
+    height: 370px;
+    float: left;
+    text-align : center;
+}
+
+#right {
+    width: 300px;
+    height: 370px;
+    float: left
+}
+
+a:hover {
+    color: red;
+}
+
+#title {
+    float: left;
+    font-size: 150%;
+    font-weight:bold;
+    margin-top: 5px;
+}
+
+
+
+#title_div {
+    width:300px;
+    height:60px;
+    float: left;
+    margin: 20px 50px 0px 0px;
+}
+
+#abc {
+    background-color: crimson;
+    width: 153px;
+    height: 20px;
+    float: left;
+}
+
+#menu_color {
+    width: 978px;
+    height: 10px;
+    float: left;
+}
+
+.color {
+    width: 153px;
+    height: 10px;
+    margin: 0px 5px 0px 5px;
+    float: left;
+    background-color: rebeccapurple;
+}

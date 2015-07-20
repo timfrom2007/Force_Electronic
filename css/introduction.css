@@ -1,0 +1,153 @@
+
+#main-content {
+    width: 1280px;
+    height: 1300px;
+}
+
+#header {
+    width: 1280px;
+    height: 150px;
+    background-image: url(../img/header.jpg);
+}
+
+#site-id {
+    width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 7px;
+    padding-left: 40px;
+}
+
+#energy-bar {
+    width:630px;
+    height: 30px;
+    float:left;
+    padding-top: 4px;
+}
+
+#english-contact {
+    width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 7px;
+}
+
+#search {
+    float:right;
+    width:auto;
+    height: 30px;
+    padding-top: 4px;
+    padding-right: 3px;
+}
+
+#toolbar {
+    background-color: dimgray;
+    width :1280px; 
+    height: 30px; 
+    opacity: 1;
+}
+
+#content {
+    width: 1280px;
+    height: 700px;
+    float: left;
+}
+
+#blank {
+    width: 80px;
+    height: 700px;
+    float: left;
+}
+
+#right_blank {
+    width: 10px;
+    height: 700px;
+    float: left;
+}
+
+#middle {
+    width: 760px;
+    height: 700px;
+    float: left;
+}
+
+#right {
+    width: 270px;
+    height: 700px;
+    float: left;
+    background-color: gainsboro;
+}
+
+#middle_top {
+    width: 560px;
+    height: 30px;
+    float: left;
+    text-decoration: none;
+}
+
+#middle_topic {
+    width: 760px;
+    height: 50px;
+    float: left;
+    
+}
+
+a {
+    text-decoration:none;
+    color: black;
+    
+}
+#summary {
+    color: gray;
+    LINE-HEIGHT:20px;
+}
+
+#middle_content {
+    LINE-HEIGHT:25px;
+}
+
+#current {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#other {
+    margin-top: 15px;
+}
+
+#footer {
+  font-size: 12px;
+  margin-left: 40px   
+
+}
+
+#header_left {
+    width: 680px;
+    height: 150px;
+    float: left;
+}
+
+#header_right {
+    width: 600px;
+    height: 150px;
+    float: left;
+    background-color: lightslategray;
+    text-align: left;
+    color: white;
+}
+
+#header_right_category {
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+#header_right_item {
+    font-size: 140%;
+    padding-left: 50px;
+}
+
+#blank_middle {
+    width: 140px;
+    height: 700px;
+    float: left;
+}
