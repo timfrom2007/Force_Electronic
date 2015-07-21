@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel=stylesheet type="text/css" href="../css/partner.css">
+        <title>合作夥伴</title>
+    </head>
+    
+    <script>
+        function over(a,b)
+        {
+            var elems = document.getElementsByClassName("menu_block");
+            
+            for(var i = 0; i < elems.length; i++) {
+                elems[i].style.background = 'silver';
+                elems[i].style.color='black';
+            }
+            
+            a.style.background=b;
+            a.style.color='white';
+        }
+        function changeimg(k)
+        {
+            img.src=k;
+        }
+        function changetitle(m,n)
+        {
+            title.innerHTML=(m);
+            summary.innerHTML=("有關 "+ m +" 的介紹......(繼續閱讀)");
+            title.href=n;
+            summary.href=n;
+            img_div.href=n;
+        }
+    </script>
+    
+    <body>
+       
+       <div id="header">
+                <div id="header_left"></div> 
+                <div id="header_right">
+                    <div id="header_right_item">合作夥伴</div>
+                </div> 
+        </div>
+            
+        <div id="toolbar">
+                <div id="site-id">
+                    <a href="index.html" style="color:white;text-decoration: none">原力機電股份有限公司</a>
+                </div>
+                <div id="energy-bar">
+                <!-- Unfinished -->  
+                </div>
+                <div id="english-contact">
+                    <a href="index.html" style="color:white;text-decoration: none">►&nbsp;&nbsp;English</a>
+                </div>
+                    
+                <div id="search">
+                    <form action="action_page.php">
+                        <input type="text" name="search" value="搜尋">
+                        <input id="toolboxsubmit"  type="submit" value="Go">
+                    </form>
+                </div>       
+        </div>
+        
+        <div id="blank"></div>
+        <div id="content">
+            <div id="middle_top">
+                <a href="index.html" style="color: crimson; font-size: 80%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;＞&nbsp; </a><a href="index.html" style="color:black; font-size: 80%;">原力機電&nbsp;</a><a href="index.html" style="color: crimson;  font-size: 80%;" >＞&nbsp; </a><a href="index.html" style="color: crimson; font-size: 80%;">合作夥伴</a>
+                    </div>
+            <div id="menu">
+               
+                <div class="menu_block" onmouseover=over(this,'maroon');changeimg('../img/%E7%99%BC%E9%9B%BB%E6%A9%9F%E4%BB%8B%E7%B4%B9.jpg');changetitle("鈞富綠能","https://www.youtube.com/watch?v=9FSYc8d0GVc")>鈞富綠能</div>
+                
+                
+                <div class="menu_block" onmouseover=over(this,'orangered');changeimg('../img/%E5%AE%9A%E5%AD%90%E7%B9%9E%E7%B7%9A%E5%AF%A6%E9%8C%84.jpg');changetitle("原展機電","https://www.youtube.com/watch?v=tKKriAxX-2g");>原展機電</div>
+                
+                
+                <div class="menu_block" onmouseover=over(this,'gold');changeimg('../img/%E7%99%BC%E9%9B%BB%E5%9C%B0%E6%9D%BF.jpg');changetitle("宏賓機電","https://www.youtube.com/watch?v=gTdmo91u0Hw");>宏賓機電</div>
+                
+                <div class="menu_block" onmouseover=over(this,'green');changeimg('../img/%E9%81%8B%E5%8B%95%E7%99%BC%E9%9B%BB%E6%A9%9F.jpg');changetitle("室內輾壓發電","https://www.youtube.com/watch?v=bVlofF_esU4");>室內輾壓發電</div>
+                
+                <div class="menu_block" onmouseover=over(this,'midnightblue');changeimg('../img/%E7%92%B0%E7%B9%9E%E7%99%BC%E9%9B%BB%E5%BB%A0.jpg');changetitle("水浮力發電","https://www.youtube.com/watch?v=3bnppVzSmlw");>水浮力發電</div>
+                
+                <div class="menu_block" onmouseover=over(this,'darkmagenta');changeimg('../img/2mm.jpg');changetitle("2mm壓電涓流發電技術","https://www.youtube.com/watch?v=QY_t-2p2eFc");
+                 >2mm壓電涓流發電技術</div>
+            </div>
+            
+            <div id="menu_color">
+                <div class="color" style="background-color:maroon"></div>
+                <div class="color" style="background-color:orangered"></div>
+                <div class="color" style="background-color:gold"></div>
+                <div class="color" style="background-color:green"></div>
+                <div class="color" style="background-color:midnightblue"></div>
+                <div class="color" style="background-color:darkmagenta"></div>
+            </div>
+            
+            <a href="https://www.youtube.com/watch?v=9FSYc8d0GVc" id="img_div">
+                <img src="../img/wind-power-and-renewables_2_458x258px.jpg" style="margin-top:10px" height=340px width="550" id="img">
+            </a>
+            <div id="right">
+               <div id="title_div">
+                   <a href="" id="title">風力發電</a>
+               </div>
+                
+                <a href="" id="summary">事業處是供應可靠、環保及高成本效益之可再生能源解決方案的領導者。我們致力讓可再生能源能夠與傳統能源全面抗衡，因此，降低風力發電成本是我們的首要目......(繼續閱讀)</a>
+            </div>
+            
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,308 @@
+#header{
+    background-image: url(../img/header.jpg);
+    width :980px; 
+    height: 390px; 
+    opacity: 1;
+}
+
+#toolbar{
+    background-color: dimgray;
+    width :980px; 
+    height: 30px; 
+    opacity: 1;
+}
+
+#content{
+    
+    width :980px; 
+    height: 500px; 
+    opacity: 1;
+}
+
+#content-zone{
+    width: 920px;
+    height: 550px;
+    margin-left: 40px;
+    padding-top: 20px;
+    
+    opacity: 0.9;
+}
+
+.container{
+    
+    width: 920px;
+    height: 260px;
+}
+
+.content-1 {
+    width:450px;
+    height: 180px;
+    
+    float:left;
+    opacity: 0.9;
+}
+
+.content-2 {
+    width: 150px;
+    height: 180px;
+    
+    float:left;
+    opacity: 0.9;
+}
+
+.container-2 {
+    float:left;
+    height: 270px;
+}
+
+.community {
+    float: left;
+    height: 30px;
+    margin-top: 13px;
+}
+
+.community h2{
+    font-size: 5px;
+}
+
+
+h2 {
+    font-size: 18px;
+    color: #666666;
+    line-height: 22px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.container-1 {
+    
+}
+
+.teaser {
+    height:23px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.news {
+    width: 700px;
+    float: left;
+    height: 30px;
+}
+
+.container-no-shadow {
+    width: 920px;
+    height: 5px;
+    margin: 4px 0 0 0;
+}
+
+
+
+.TabbedPanelsTab {
+    background: none;
+    position: relative;
+    top: 1px;
+    float: left;
+    margin: 0px 2px 0px 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.TabbedPanelsTabSelected {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;
+    <!--border-bottom: 1px solid; #FFF;-->
+    padding: 3px 9px 4px 5px;
+    color: #900;
+}
+
+#product-tablelist {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div.product-content li {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+li {
+    display: list-item;
+}
+
+.TabbedPanelsContentGroup {
+    clear: both;
+    border-top: solid 1px #999;
+    padding-top: 5px;
+}
+
+#site-id {
+    width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 4px;
+    padding-left: 40px
+}
+
+#english-contact {
+    width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 4px;
+}
+
+#search {
+    float:right;
+    width:auto;
+    height: 30px;
+    padding-top: 4px;
+    padding-right: 3px;
+}
+
+.news1 {
+    float:left;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+}
+
+.news2 {
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+}
+
+
+
+.blank {
+    width: 10px;
+    height: 360px;
+    float: left;
+}
+.news-titile {
+    width: 920px;
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+.news3 {
+    
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+}
+
+
+
+.news-content {
+    height: px;
+    width: 900;
+}
+
+.no-divider {
+    height: 180px;
+}
+
+.hidden{
+    display: none;
+}
+.TabbedPanelsTabHover:hover{
+    background: #999999;
+    background-color: #999999;
+}
+
+.pf-link-list {
+    float: left;
+}
+
+#energy-bar {
+    width:300px;
+    height: 30px;
+    float:left;
+    padding-top: 4px;
+}
+
+li a.link {
+    background: url(../img/icon-link.gif) 0 4px no-repeat;
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.community a {
+    font-size: 5px;
+}
+
+.pf-link-list ul {
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.About-company ul {
+    padding-left: 0px;
+}
+
+.teaser h2 {
+    padding-left: 0px;
+}
+
+.container-middle-shadow {
+    width: 40px;
+    height: 180px;
+    float: left;
+}
+
+#production {
+    width: 300px;
+    height: 180px;
+    float: left;
+}
+
+#eletrical_energy {
+    width: 300px;
+    height: 75px;
+    float: left;
+}
+
+#carbon_reduction {
+    width: 300px;
+    height: 75px;
+    float: left;
+    text-align: center;
+}
+
+#eletrical_energy_num {
+    text-align: center;
+    font-size: 170%;
+    color: orangered;
+    font-weight: bold;
+    
+    
+}
+
+#carbon_reduction_num {
+    text-align: center;
+    font-size: 170%;
+    color: blue;
+    font-weight: bold;
+    color: forestgreen;
+    
+}
+
+li a:hover{
+    color: blue;
+}
