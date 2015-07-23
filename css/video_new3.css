@@ -1,0 +1,148 @@
+#toolbar {
+    background-color: dimgray;
+    width :1280px; 
+    height: 30px; 
+    opacity: 1;
+    float: left;
+}
+
+#site-id {
+        width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 7px;
+    padding-left: 40px;
+}
+
+#energy-bar {
+        width:630px;
+    height: 30px;
+    float:left;
+    padding-top: 4px;
+}
+
+#english-contact {
+         width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 7px;
+}
+
+#search {
+        float:right;
+    width:auto;
+    height: 30px;
+    padding-top: 4px;
+    padding-right: 3px;
+}
+
+
+#content {
+    width: 1260;
+    height: 590px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#middle {
+    width: 1280px;
+    height: 610px;
+    float: left;
+    background-color: gainsboro;
+}
+
+.line {
+    width: 1260px;
+    height: 140px;
+    float: left;
+}
+
+.blank_line {
+    width: 1260px;
+    height: 10px;
+    float: left;
+}
+
+.block {
+    width: 412px;
+    height: 140px;
+    float: left;
+    background-color: white;
+    
+}
+
+.blank_block {
+    width: 12px;
+    height: 140px;
+    float: left;
+}
+
+.img_div {
+    width: 210px;
+    height: 140px;
+    float: left;
+}
+
+.title_div {
+    width: 202px;
+    height: 140px;
+    float: left;
+}
+
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+#header2 {
+    width :1280px; 
+    height: 35px; 
+    margin:0px auto;
+    background-color: grey;
+    padding-top: 10px;
+    float: left;
+}
+
+#video {
+    color: white;
+    font-size: 125%;
+    padding-left: 10px;
+    font-weight:bold;
+    padding-right: 10px;
+}
+
+#back {
+    height: 30px; 
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+    font-weight:bold;
+    font-size: 110%;
+    text-align: center;
+    padding-left:3px;
+    float: right;
+    margin-right: 10px;
+}
+
+#► {
+    height: 40px; 
+    color: white;
+    text-decoration: none;
+    padding: 7px 6px 0px 15px;
+    float: right;
+    font-weight:bold;
+}
+
+#youtubepage {
+    text-decoration:none;
+    color: white;
+    float: right;
+    font-size: 120%;
+    margin-right: 15px;
+    margin-top: 4px;
+}

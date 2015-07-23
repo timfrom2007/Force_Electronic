@@ -4,42 +4,14 @@
         <script language="javascript" src="../js/control.js"></script> 
         <link rel=stylesheet type="text/css" href="../css/index.css">
         <link rel=stylesheet type="text/css" href="../css/slider.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <!-- <link rel="stylesheet" href="../css/font-awesome.min.css">  -->
         
         
     </head>
     
     <body onload="ShowTime()">
-  
-<script>  
-    function ShowTime(){
-        var NowDate=new Date();
-        var h=NowDate.getHours();
-        var m=NowDate.getMinutes();
-        var s=NowDate.getSeconds();
-        var k=s*5845.3+m*352023+h*21361646;
-        var p=k*1000;
-        var K=fmoney(k,1);
-        var P=fmoney(p,1);
-    
-    document.getElementById('eletrical_energy_num').innerHTML = P+"&nbsp;&nbsp;&nbsp;Kw";
-    document.getElementById('carbon_reduction_num').innerHTML = K+"&nbsp;&nbsp;&nbsp;Ton";
-    setTimeout('ShowTime()',1000);
-}
-    
-    function fmoney(s, n) {  
-        n = n > 0 && n <= 20 ? n : 2;  
-        s = parseFloat((s + "").replace(/[^\d\.-]/g, "")).toFixed(n) + "";  
-        var l = s.split(".")[0].split("").reverse(), r = s.split(".")[1];  
-        t = "";
-    
-        for (i = 0; i < l.length; i++) {  
-            t += l[i] + ((i + 1) % 3 == 0 && (i + 1) != l.length ? "," : "");  
-        }  
-        return t.split("").reverse().join("") + "." + r;  
-    }  
-</script>
-       
+
         <div id="header"> </div>
 
         
@@ -52,7 +24,7 @@
             </div>
             <div id="english-contact">
                 <a href="index.html" style="color:white;text-decoration: none">►&nbsp;&nbsp;English</a>
-                <a href="index.html" style="color:white;text-decoration: none;margin-left:50px;">►&nbsp;&nbsp;聯絡我們</a>
+                <a href="../page/contact_us.html" style="color:white;text-decoration: none;margin-left:50px;">►&nbsp;&nbsp;聯絡我們</a>
             </div>
             <div id="search">
                     <form action="http://www.google.com/search" target="_blank">
@@ -78,6 +50,7 @@
                                 <li id="1" class="TabbedPanelsTab TabbedPanelsTabSelected TabbedPanelsTabHover">&nbsp;解決方案&nbsp;</li>
                             </ul>
                         </div>
+                        
                         
                         <div class="prodct-content">
                             <div id="product-table-content" class="TabbedPanelsContentGroup">
@@ -119,6 +92,7 @@
                                     <li><a class="link" href="../page/news_center.html">&nbsp;&nbsp;新聞中心</a></li>
                                     <li><a class="link" href="">&nbsp;&nbsp;招募專才</a></li>
                                     <li><a class="link" href="">&nbsp;&nbsp;產品實績</a></li>
+                                    <li><a class="link" href="">&nbsp;&nbsp;企業合作</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -127,11 +101,11 @@
                     <div id="production" onmouseover="eletrical_energy.style.background='aquamarine';carbon_reduction.style.background='aquamarine'"
                        onmouseout="eletrical_energy.style.background='transparent';carbon_reduction.style.background='transparent'">
                         <div id="eletrical_energy">
-                            <div style="text-align:center;font-size:120%;font-weight: bold;">本公司產品發電總電量</div>
+                            <div style="text-align:center;font-size:140%;font-weight: bold;">本公司產品發電總電量</div>
                             <div id="eletrical_energy_num"></div>
                         </div>
                         <div id="carbon_reduction">
-                            <div style="text-align:center;font-size:120%;font-weight: bold;">減少碳排放量</div>
+                            <div style="text-align:center;font-size:140%;font-weight: bold;">減少碳排放量</div>
                             <div id="carbon_reduction_num"></div>
                         </div>
                     </div>
@@ -147,24 +121,24 @@
                         <div class="news"><h2>新聞與議題</h2></div>
                         <div class="community">
                             <a>原力機電社群網站：</a>
-                            <a href="video.html"><img src="../img/youtube.jpg.gif" width="30 pixels" height="30 pixels"></a>
+                            <a href="../page/video_new4.html"><img src="../img/youtube.jpg.gif" width="30 pixels" height="30 pixels"></a>
                         </div>
                     </div>
                     
                     <div class="news-content">
                         <div class="container container-3 no-divider">
                             <div class="news1">
-                                <a href="index.html" id="newspic1">
-                                <img src="http://m3.dfps.tp.edu.tw/images/logo.gif"></a>
-                                <a href="index.html" class="newstext">On May 7, 2015</a>
+                                <a href="https://www.youtube.com/watch?v=B9Fxq-qVYAs" id="newspic1">
+                                <img src="../img/B.jpg"></a><br><br>
+                                <a href="index.html" class="newstext">【2015.04.25】愛迪生發明獎 台創業家奪雙金 -udn tv </a>
                             </div>
                             
                             <div class="blank"></div>
                             
                             <div class="news2">
                                  <a href="index.html" id="newspic2">
-                                <img src="http://m3.dfps.tp.edu.tw/images/logo.gif"></a>
-                             <a href="index.html" class="newstext">Cities’ decisions on </a>
+                                <img src="../img/edison.jpg"></a><br><br><br>
+                             <a href="index.html" class="newstext">2015 Edison Awards Opening Video</a>
                             </div>
                             
                             <div class="blank"></div>
@@ -192,7 +166,7 @@
             <span>|</span>
             <a href="index.html">digitalidblock</a>
         </div>
-    
+    <script src="../js/index.js"></script>
     </body>
     
     <script src="../js/control.js"></script>

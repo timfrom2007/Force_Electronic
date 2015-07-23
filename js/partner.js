@@ -1,15 +1,15 @@
 function over(a,b)
-        {
-            var elems = document.getElementsByClassName("menu_block");
+{
+    var elems = document.getElementsByClassName("menu_block");
             
-            for(var i = 0; i < elems.length; i++) {
-                elems[i].style.background = 'silver';
-                elems[i].style.color='black';
-            }
-            
-            a.style.background=b;
-            a.style.color='white';
-        }
+    for(var i = 0; i < elems.length; i++) {
+        elems[i].style.background = 'silver';
+        elems[i].style.color='black';
+    }
+    
+    a.style.background=b;
+    a.style.color='white';
+}
 
 function changeimg(k)
 {

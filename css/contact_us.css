@@ -1,0 +1,122 @@
+
+#main-content {
+    
+    width: 1280px;
+    height: 1500px;
+}
+
+#header {
+    
+    width: 1280px;
+    height: 150px;
+   background-image: url(../img/a.jpg);
+}
+
+#header_left {
+    
+     width: 680px;
+    height: 150px;
+    float: left;
+}
+
+#header_right {
+    
+    width: 600px;
+    height: 150px;
+    float: left;
+    background-color: lightslategray;
+    text-align: left;
+    color: white;
+}
+
+#header_right_item {
+    
+    margin-top: 50px;
+    font-size: 160%;
+    padding-left: 50px;
+}
+
+#toolbar {
+    
+    background-color: dimgray;
+    width :1280px; 
+    height: 30px; 
+    opacity: 1;
+    float: left;
+}
+
+#site-id {
+    
+        width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 7px;
+    padding-left: 40px;
+}
+
+#energy-bar {
+        width:630px;
+    height: 30px;
+    float:left;
+    padding-top: 4px;
+    
+}
+
+#english-contact {
+         width:auto;
+    height: 30px;
+    float:left;
+    padding-top: 7px;
+    
+}
+
+#search {
+        float:right;
+    width:auto;
+    height: 30px;
+    padding-top: 4px;
+    padding-right: 3px;
+    
+}
+
+#content {
+    width: 1260;
+    height: 454px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+#blank {
+     width: 60px;
+    height: 700px;
+    float: left;
+}
+
+#middle {
+    width: 800px;
+    height: 700px;
+    float: left;
+}
+
+#middle_top {
+    width: 560px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+    
+}
+
+#main {
+    LINE-HEIGHT:30px;
+     width: 800px;
+    height: 500px;
+    float: left;
+    color: gray;
+}
