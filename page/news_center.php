@@ -1,3 +1,4 @@
+<?php include("Mysql_Util.php"); ?>
 <html>
     <head>
         <meta charset="utf-8">
@@ -46,10 +47,12 @@
                     </div>
                     <div id="middle_news">
                         <hr style="border: 1px dashed #ccc; width: 100%; float:left;">
-                        <a href="http://goo.gl/rtDsvP" id="news"><img src="../img/pdf.png" height=18px; width=18px;>&nbsp;2015|大葉大學機械系邱秉楓開發「道路發電系統」 波蘭發明展、香港發明展摘金</a><br><br>
-                        <a href="http://goo.gl/nQYIsJ" id="news"><img src="../img/pdf.png" height=18px; width=18px;>&nbsp;2015|台灣大放異彩 邱秉楓獲愛迪生金獎</a><br><br>
-                        <a href="http://goo.gl/xHMKhJ" id="news"><img src="../img/pdf.png" height=18px; width=18px;>&nbsp;2015|愛迪生發明獎／邱秉楓 白手創業圓夢</a><br><br>
-                        <a href="http://goo.gl/FBHzzk" id="news"><img src="../img/pdf.png" height=18px; width=18px;>&nbsp;2015|愛迪生獎／退伍軍人創業 邱秉楓從小愛發明</a>
+                        <?php
+                            $result = show_news();
+                            while($row = @mysql_fetch_row($result)){
+                            echo "<a href='$row[2]' id='news'><img src='../img/pdf.png' height=18px; width=18px;>&nbsp;$row[1]|$row[0]</a><br><br>";
+                        }
+                        ?>
                  
                     </div>
                     <div id="middle_bottom">
@@ -74,8 +77,8 @@
                          <a href="../page/news_center.html" style="color:blue;">新聞中心</a><br>
                     </div>
                     <div style="margin-bottom:10px;">
-                         <a href="../page/aboutus.html" style="color:red; font-size: 80%;">&nbsp;＞&nbsp; </a>
-                         <a href="../page/aboutus.html" class="news_menu">關於原力機電</a><br>
+                         <a href="../page/about_us.html" style="color:red; font-size: 80%;">&nbsp;＞&nbsp; </a>
+                         <a href="../page/about_us.html" class="news_menu">關於原力機電</a><br>
                     </div>
                     <div style="margin-bottom:10px;">
                          <a href="../page/partner.html" style="color:red; font-size: 80%;">&nbsp;＞&nbsp; </a>
